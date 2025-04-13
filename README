@@ -1,0 +1,33 @@
+Dependências:
+  npm init -y
+  npm i -D ts-node ts-node-dev typescript
+  npm i -D @types/express
+  npm i - D @types/express@4 // faz downgrade para 4.17.21
+  npx tsc --init
+  npm install --save pg
+  npm install --save-dev @types/pg
+  npm i dotenv
+
+Criar BD no PostgreSQL
+  BD: meteo
+  Usuário: meteouser
+  Senha: Xpto123#
+
+Criar tabela meteo no BD
+  npm run init
+
+Rodar o servidor Express
+  npm run dev
+
+Código Arduino
+
+  Placa ESP32: NodeMCU-32S
+  IDE: Arduino IDE 2.3.6
+  Bibliotecas: DHT (Adafruit) | WiFi | WiFiCliente | HTTPClient
+
+Tutorial Node/Express
+https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction
+
+Tutorial ESP32 HTTP GET and HTTP POST with Arduino IDE (JSON, URL Encoded, Text)
+https://randomnerdtutorials.com/esp32-http-get-post-arduino/
+
