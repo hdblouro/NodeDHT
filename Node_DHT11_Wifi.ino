@@ -9,9 +9,11 @@
 #include <HTTPClient.h>
 #define CONNECTION_TIMEOUT 10
 
-const char *ssid = "Kfofo";
-const char *password = "Hdbl09069088#";
-const char *server_url = "http://192.168.1.106:3001/meteo"; // Nodejs application endpoint
+// ESP32 deverá estar na mesma rede que o servidor Node.js
+const char *ssid = "Colocar aqui o nome da rede WiFi"; // Your network SSID (name)
+const char *password = "Colocar aqui a password da rede WiFi"; // Your network password
+const char *server_url = "http://IP:3001/meteo"; // IP = do servidor Node.js
+
 // StaticJsonBuffer<200> jsonBuffer;
 //  Set up the client objet
 WiFiClient client;
