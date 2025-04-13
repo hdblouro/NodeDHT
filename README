@@ -26,8 +26,10 @@ Código Arduino
   Bibliotecas: DHT (Adafruit) | WiFi | WiFiCliente | HTTPClient
 
 Tutorial Node/Express
-https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction
+  https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction
 
 Tutorial ESP32 HTTP GET and HTTP POST with Arduino IDE (JSON, URL Encoded, Text)
-https://randomnerdtutorials.com/esp32-http-get-post-arduino/
+  https://randomnerdtutorials.com/esp32-http-get-post-arduino/
 
+Tutoria Sending sensor values from Esp8266 to Nodejs server using Arduino IDE
+  https://muralimahadeva.medium.com/sending-sensor-values-from-esp8266-to-nodejs-server-using-arduino-ide-4b7d3d3e1045
